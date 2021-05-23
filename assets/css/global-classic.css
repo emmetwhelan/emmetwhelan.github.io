@@ -1,0 +1,69 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { max-width: 1600px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+min-height: 100vh; text-rendering: optimizeSpeed }  
+img { width: 100%; height: auto; display: block }
+h1, h2, h3, h4 { width: 100% }
+input, button, textarea, select { font: inherit }
+
+
+/* ================= ENDS ================ */
+
+/* Desktops */
+@media (min-width: 768px) { body { padding: 4% 20% } }
+	
+/* Mobiles */
+@media (max-width: 767px) { body { padding: 12% 8% } }
+   
+
+body { 
+    text-align: center;
+    background-color: #0e2439    
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-top: -125px;
+    margin-bottom:70px;
+    line-height: 1.2;
+    color:#3edbf0;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 4px 4px #4b778d;
+}
+
+h2 {
+    font-size: 59px;
+    font-style: bold;
+    letter-spacing: 6px;
+    margin-bottom: 13px;
+    line-height: 1.2;
+    color: #51c4d3;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+p {
+    font-size: 26px;
+    margin-bottom: 32px;
+    color:#51adcf;
+    font-family: 'Gentium Book Basic', serif; 
+}
+
+/* Passive link states */
+a:link, a:visited {
+    text-decoration: none;
+    color: orange;
+    padding-bottom: 2px;
+    
+}
+           
+/* Interactive link states */
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #f7ea00;
+    padding-bottom: 2px;
+       
